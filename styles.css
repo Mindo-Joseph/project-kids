@@ -16,6 +16,8 @@ body {
     box-shadow: 3px 3px 3px 3px grey;
 }
 form {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     margin-left: 2%;
 }
@@ -26,10 +28,10 @@ input {
 }
 .content-area {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 450px;
 }
-.card-1 , .card-2 , .card-3 {
+.card-1 , .card-2 , .card-3,.card-4 {
     margin-right: 3%;
     margin-left: 3%;
     background-color: #ffffff;
@@ -48,5 +50,9 @@ input {
 }
 .card-3 {
     display: grid;
-    grid-column: 3 / -1;
+    grid-column: 3 / 4;
+}
+.card-4 {
+    display: grid;
+    grid-column: 4 /-1;
 }
