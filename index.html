@@ -31,7 +31,18 @@
             <form class="" action="">
                 <input type="text" name="" id="output-num" placeholder="Enter answer">
             </form>
-            <a href=""><i class="fa fa-check fa-4x" aria-hidden="true"></i></a>
+            <div class="modal-container">
+                <input id="modal-toggle" type="checkbox">
+                <button><i class="fa fa-check fa-2x" aria-hidden="true"></i></button> 
+                <div class="modal-backdrop">
+                  <div class="modal-content">
+                    <label class="modal-close" for="modal-toggle">x</label>
+                    <h2>You answered correctly!</h2><hr />
+                    <p>Move to next challenge!</p> 
+                    <label class="modal-close button" for="modal-toggle">OK</label>   
+                  </div>          
+                </div>
+              </div> 
 
         </div>
     </main>
