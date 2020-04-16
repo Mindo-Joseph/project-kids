@@ -24,3 +24,29 @@ input {
     border-left: 0;
     border-right: 0;
 }
+.content-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 450px;
+}
+.card-1 , .card-2 , .card-3 {
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: #ffffff;
+    margin-top: 10%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px grey;
+
+}
+.card-1 {
+    display: grid;
+    grid-column: 1 / 2;
+}
+.card-2 {
+    display: grid;
+    grid-column: 2 / 3;
+}
+.card-3 {
+    display: grid;
+    grid-column: 3 / -1;
+}
