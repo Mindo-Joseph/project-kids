@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+}
+.main-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px ;
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+form {
+    width: 100%;
+    margin-left: 2%;
+}
+input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
